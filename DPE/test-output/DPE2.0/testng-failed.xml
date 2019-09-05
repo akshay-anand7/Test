@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DPE2.0]">
+  <test name="DPE2.0_AllTests(failed)">
+    <classes>
+      <class name="com.pwc.dpe.DPETests">
+        <methods>
+          <include name="WEB_1"/>
+          <include name="initSuite"/>
+        </methods>
+      </class> <!-- com.pwc.dpe.DPETests -->
+    </classes>
+  </test> <!-- DPE2.0_AllTests(failed) -->
+</suite> <!-- Failed suite [DPE2.0] -->

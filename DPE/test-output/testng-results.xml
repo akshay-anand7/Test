@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logging in as Admin User: kumaravel.gangadaran@net-effect.com on Chrome on Windows<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for element By.id: submit-button to exist<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Ajax Refresh<br>]]>
+    </line>
+    <line>
+      <![CDATA[Found Element By.id: submit-button: true<br>]]>
+    </line>
+    <line>
+      <![CDATA[Found Element: By.id: submit-button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Exception caught while signing out at testCleanUp, closing Browser now.<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[inside @AfterSuite<br>]]>
+    </line>
+    <line>
+      <![CDATA[---------------------------------------------------------------------------------<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite1" duration-ms="49645" started-at="2019-07-16T14:16:30Z" finished-at="2019-07-16T14:17:20Z">
+    <groups>
+    </groups>
+    <test name="com.pwc.dpe_AllTests" duration-ms="49645" started-at="2019-07-16T14:16:30Z" finished-at="2019-07-16T14:17:20Z">
+      <class name="com.pwc.dpe.DPETests">
+        <test-method status="PASS" signature="initSuite()[pri:0, instance:com.pwc.dpe.DPETests@22a67b4]" name="initSuite" is-config="true" duration-ms="9236" started-at="2019-07-16T19:46:21Z" finished-at="2019-07-16T19:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method status="FAIL" signature="WEB_1()[pri:0, instance:com.pwc.dpe.DPETests@22a67b4]" name="WEB_1" duration-ms="39545" started-at="2019-07-16T19:46:30Z" finished-at="2019-07-16T19:47:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Automation')]"}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PNQ-AKSHAY-A-L', ip: '192.168.0.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\Users\pnq\AppData\Local\Temp\scoped_dir33076_25744}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53564}, acceptInsecureCerts=false, browserVersion=75.0.3770.100, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 24ed5f7e29491169e19b852b9fd3d5fd
+*** Element info: {Using=xpath, value=//div[contains(text(),'Automation')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Automation')]"}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'PNQ-AKSHAY-A-L', ip: '192.168.0.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}), userDataDir=C:\Users\pnq\AppData\Local\Temp\scoped_dir33076_25744}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53564}, acceptInsecureCerts=false, browserVersion=75.0.3770.100, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 24ed5f7e29491169e19b852b9fd3d5fd
+*** Element info: {Using=xpath, value=//div[contains(text(),'Automation')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.pwc.dpe.WebsitePagesObject.deleteThePage(WebsitePagesObject.java:83)
+	at com.pwc.dpe.DPETests.WEB_1(DPETests.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Logging in as Admin User: kumaravel.gangadaran@net-effect.com on Chrome on Windows<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for element By.id: submit-button to exist<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Ajax Refresh<br>]]>
+            </line>
+            <line>
+              <![CDATA[Found Element By.id: submit-button: true<br>]]>
+            </line>
+            <line>
+              <![CDATA[Found Element: By.id: submit-button<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WEB_1 -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.pwc.dpe.DPETests@22a67b4]" name="initTest" is-config="true" duration-ms="0" started-at="2019-07-16T19:46:30Z" finished-at="2019-07-16T19:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="cleanupTest(org.testng.ITestResult)[pri:0, instance:com.pwc.dpe.DPETests@22a67b4]" name="cleanupTest" is-config="true" duration-ms="10054" started-at="2019-07-16T19:47:10Z" finished-at="2019-07-16T19:47:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WEB_1 status=FAILURE method=DPETests.WEB_1()[pri:0, instance:com.pwc.dpe.DPETests@22a67b4] output=Logging in as Admin User: kumaravel.gangadaran@net-effect.com on Chrome on Windows<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Exception caught while signing out at testCleanUp, closing Browser now.<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanupTest -->
+        <test-method status="PASS" signature="cleanSuite()[pri:0, instance:com.pwc.dpe.DPETests@22a67b4]" name="cleanSuite" is-config="true" duration-ms="3736" started-at="2019-07-16T19:47:21Z" finished-at="2019-07-16T19:47:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside @AfterSuite<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanSuite -->
+      </class> <!-- com.pwc.dpe.DPETests -->
+    </test> <!-- com.pwc.dpe_AllTests -->
+  </suite> <!-- TestSuite1 -->
+</testng-results>
